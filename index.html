@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommender System</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+    <h2>Recommender System</h2>
+    <form action="/predict" method="post">
+
+        <div id="inp_box">
+            <label for="movie">Enter movie name</label><br><br>
+            <input type="text" name="Movie" class="Inp">
+        </div><br>
+
+        <div class="Button">
+            <input type="submit" value="sumbit" class="Sub_but">
+            <input type="reset" value="Reset" class="Res_but">
+        </div><br><br>
+
+        {{ movie_list }}
+
+    </form>
+</body>
+</html>

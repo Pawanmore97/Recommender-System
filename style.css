@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(78, 84, 84);
+}
+
+h2{
+    text-align: center;
+    color: red;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+form{
+    background-color: rgb(78, 84, 84);
+    /* border: 2px solid black; */
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 150px;
+
+}
+
+#button{
+    align-items: center;
+}
+
+.inp_box{
+    align-items: center;
+    padding-top: 10px;
+}
+
+.Inp{
+    height: 7mm;
+    width: 80mm;
+    align-items: center;
+}
+
+.Sub_but,.Res_but{
+    width: 30mm;
+    height: 5mm;
+    /* padding-left: 10px; */
+}
+
+label{
+    color: red;
+    padding-left: 20%;
+    margin-bottom: 50px;
+}
+
+.Button{
+    padding-left: 40px;
+}
